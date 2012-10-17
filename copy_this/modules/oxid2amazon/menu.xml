@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="ISO-8859-15" ?>
+<AZ>
+	<OXMENU id="NAVIGATION_ESHOPADMIN">
+		<MAINMENU id="mxmanageprod">
+			<SUBMENU id="mxcategories" cl="category" list="category_list">
+				<TAB id="tbaz_amz_category_theme" cl="az_amz_category_theme" />
+			</SUBMENU>
+		</MAINMENU>
+		<MAINMENU id="az_amz">
+			<SUBMENU id="az_amz_destinations" cl="az_amz_destinations" list="az_amz_destinations_list">
+				<TAB id="az_amz_destinations_main" cl="az_amz_destinations_main" />
+				<TAB id="az_amz_destinations_prodselector" cl="az_amz_destinations_prodselector" />
+				<TAB id="az_amz_destinations_history" cl="az_amz_destinations_history" />
+				<BTN id="az_amz_destinations_new" />
+			</SUBMENU>
+			<SUBMENU id="az_amz_settings" cl="az_amz_settings" list="az_amz_settings_list">
+				<TAB id="az_amz_settings_main" cl="az_amz_settings_main" />
+				<TAB id="az_amz_settings_categories" cl="az_amz_settings_categories" />
+			</SUBMENU>			
+		</MAINMENU>
+	</OXMENU>	
+</AZ>

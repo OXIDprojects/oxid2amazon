@@ -1,0 +1,21 @@
+/*
+dark blue: a0def7
+light blue: bce6fc
+grey: #dddee0
+*/
+body { background-color:#dddee0; margin:0px; padding:0px; }
+#header { width:75%; margin:auto; padding:12px 30px 20px 30px; background-color:#bce6fc; }
+#logo { float:right; width:200px; text-align:right; margin:0px; padding:10px; background-color:#fff; }
+#content { width:75%; margin:auto; padding:10px 30px 30px; 10px; background-color:#fff; }
+#footer { width:75%; margin:auto; padding:10px 30px; background-color:#bce6fc; text-align:center; }
+#footer a { color:#000; text-decoration:none; }
+h1 { font-family:Verdana,Arial,Helvetica,sans-serif; font-size:16pt; }
+h2 { font-family:Verdana,Arial,Helvetica,sans-serif; font-size:14pt; background-color:#dddee0; border-top:2px solid #bce6fc; border-right:1px solid #bce6fc; padding: 5px 5px 5px 30px; margin:30px 0px 0px -30px; }
+h3 { font-family:Verdana,Arial,Helvetica,sans-serif; font-size:12pt; }
+dd { margin-bottom:10px; }
+.attention { border:1px solid #f20; background-color:#ffeeee; padding:5px; }
+.filename { font-family:monospace; font-weight:bold; }
+.menuname { font-weight:bold; }
+.code { font-family:monospace; padding:5px; background-color:#eeeff0; overflow:scroll; }
+.steps li { margin-bottom:20px; padding:5px; border: 1px solid #dddee0; }
+.changes { color:#a22; }

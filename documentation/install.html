@@ -1,0 +1,99 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<html>
+<head>
+	<title>oxid2amazon Modul für OXID eShop 4 - Installation</title>
+	<meta http-equiv="content-type" content="text/html; charset=ISO-8859-1" />
+    <link rel="stylesheet" type="text/css" href="inc/style.css" />
+</head>
+<body>
+
+<div id="header">
+    <div id="logo">
+        <a href="index.html"><img src="inc/anzido-logo.jpg" border="0" /></a>
+    </div>
+    <div>
+        <h1>oxid2amazon Modul für OXID eShop PE/EE 4</h1>
+    </div>
+</div>
+
+<div id="content">
+<p>
+(Version: 0.8.2 beta, Revision: 9154)
+<br />
+<a href="index.html">zurück zum Inhaltsverzeichnis</a>
+</p>
+
+
+<h2>Voraussetzungen</h2>
+
+<p>
+Voraussetzungen für dieses Modul ist die OXID eShop PE / EE Version 4.2 oder neuer.
+<br />
+Dieses Modul ist ausschließlich für die Professional Edition und Enterprise Edition zugelassen, nicht für die Community Edition.
+</p>
+
+
+<h2>Installation</h2>
+
+<p>
+<ol class="steps">
+
+<li>
+    Legen Sie ein Backup Ihrer Shop-Datenbank sowie Ihrer Shop-Dateien an bzw. vergewissern Sie sich, dass solche Backups vorhanden sind.
+</li>
+<li>
+    Kopieren Sie alle Dateien im Ordner <span class="filename">copy_this</span> in Ihr Shopverzeichnis.
+</li>
+
+<li>
+    Im Verzeichnis <span class="filename">changed_full</span> finden Sie einige Templates für den Admin-Bereich. Sollten diese Templates in Ihrem Shop bisher nicht verändert worden sein, so können Sie die den Inhalt des Verzeichnisses ebenfalls einfach in Ihr Shopverzeichnis kopieren.<br />Falls Sie an den genannten Dateien bereits Änderungen vorgenommen haben, so müssen Sie die in den mitgelieferten Templates deutlich markierten Stellen in Ihrer angepassten Templates übertragen. Falls Ihnen unklar sein sollte, was hier genau zu tun ist, so bitten Sie ggf. einen OXID-Partner um Hilfe.
+</li>
+
+<li>
+	Führen Sie nun - z. B. mit Hilfe des phpMyAdmins oder einem anderen Datenbank-Tool - das Script <span class="filename">install.sql</span> auf Ihrer Shop-Datenbank aus.
+</li>
+
+<li>
+    Nehmen Sie nun im Admin-Bereich unter <span class="menuname">anzido Amazon</span> &raquo; <span class="menuname">Destinations</span> im Reiter <span class="menuname">Destination</span>
+    die Konfiguration des Moduls vor. Sie müssen hier Ihre Amazon Zugangsdaten eintragen sowie die Zugangsdaten zu Ihrem AMTU-Server.
+    <br />
+    Für den &quot;Pfad zum Ablage-Verzeichnis&quot; lautet der Wert normalerweise: <span class="filename">/production/outgoing</span>.<br />
+    Für den &quot;Pfad zum Reports-Verzeichnis&quot; lautet der Wert normalerweise: <span class="filename">/production/reports</span>.<br /><br />
+    Sie können an dieser Stelle weitere Einstellungen tätigen bzgl. Sprache, Währung und Logistiker für den aktuellen Amazon-Account.<br /><br />
+    Im Bereich &quot;Amazon control&quot; haben Sie die Möglichkeit, sämtliche von Ihnen bisher exportierte Artikel bei Amazon zu entfernen.<br />
+    Im Bereich Cronjobs haben Sie die Möglichkeit, die einzelnen Aktionen des Amazon-Moduls manuell auszulösen. Im Normalfall sollten für diese Aktionen Cronjobs angelegt werden.
+</li>
+
+<li>
+    Nachdem Sie einen Amazon-Account angelegt haben, können Sie unter dem Reiter <span class="menuname">Product selector</span> bestimmen, welche Artikel zu Amazon exportiert werden sollen. Sie können dies einerseits auf Basis der Auswahl einer oder mehrerer Kategorien tun und/oder auf Basis von Filterkriterien, die Sie völlig Frei anhand von Feldern der Artikeltabelle festlegen können. Über den Button <span class="menuname">Beispiel-Produkte</span> können Sie eine Auswahl der Artikel sehen, die auf Basis der von Ihnen eingestellten Kriterien exportiert würde.
+</li>
+
+<li>
+    Im Menü <span class="menuname">Settings</span> können und müssen Sie noch einige weitere Einstellungen für Ihren Export vornehmen .... ##TODO
+</li>
+
+<li>
+    Leeren Sie ggf. sicherheitshalber das <span class="filename">tmp</span> Verzeichnis Ihres Shops.
+</li>
+<li>
+	History ... ##TODO
+</li>
+
+</ol>
+</p>
+
+
+
+
+<p>
+Für weitergehende Fragen und Anregungen stehen wir Ihnen selbstverständlich gerne zur Verfügung:
+<a href="mailto:support@anzido.com?subject=oxid2amazon-0.8.2 beta (Revision 9154)">support@anzido.com</a>
+</p>
+
+
+</div>
+<div id="footer">
+    &copy; 2010 <a href="http://www.anzido.com">anzido GmbH</a>
+</div>
+</body>
+</html>
